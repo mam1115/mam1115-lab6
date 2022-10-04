@@ -1,0 +1,7 @@
+tempQues=float(input("What's the temperature?"))
+degQues=int(input("Enter 1 if this temperature was Fahrenheit, or 0 if it was Celsius"))
+if degQues==1:
+    (tempQues*1.8)+32
+if degQues==0:
+    (tempQues-32)*0.55
+print(tempQues)
